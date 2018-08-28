@@ -1,0 +1,18 @@
+/* pages/photoView.wxss */
+.photo-page {
+  height: 100%;
+  width: 100%;
+}
+
+.photo-page-list {
+  margin: 10rpx;
+  position: absolute;
+}
+
+.photo-title {
+  text-align: center;
+}
+
+.photo-image {
+  overflow: hidden;
+}

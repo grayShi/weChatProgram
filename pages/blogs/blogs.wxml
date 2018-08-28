@@ -1,0 +1,6 @@
+<!--pages/blogs/blogs.wxml-->
+<text>pages/blogs/blogs.wxml</text>
+<import src="../wxParse/wxParse.wxml"/>
+<block wx:for="{{replyTemArray}}" wx:key="">
+  回复{{index}}:<template is="wxParse" data="{{wxParseData:item}}"/>
+</block>

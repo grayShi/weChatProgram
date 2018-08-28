@@ -1,0 +1,11 @@
+<!--pages/photoView.wxml-->
+<view class='photo-page'>
+  <view class='photo-page-list'>
+    <view wx:for="{{photoArray}}" wx:for-item="item">
+      <view class="photo-image" bindtap="clickPhoto" data-src="{{item.src}}">
+        <image mode="{{photoFormat.mode}}" src="{{item.src}}"></image>
+      </view>
+      <view class="photo-title">{{item.title}}</view>
+    </view>
+  </view>
+</view>
